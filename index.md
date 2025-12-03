@@ -4,11 +4,12 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "Online"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: ""      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "gb"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "51.507351"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-0.127758"       # decimal longitude of the workshop venue (use https://www.latlong.net)
+online: true
 humandate: "Monday 8th - Wednesday 10th December 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "10:00-17:00"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2025-12-08      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
@@ -66,6 +67,7 @@ displayed if the 'eventbrite' field in the header is not set.
 </script>
 {% endif %}
 
+<h5>We apologise but this workshop is now FULLY BOOKED and it is no longer possible to register. The STEP-UP/RSLondon teams will be running a further workshop in February 2026. This next workshop will be advertised on the <a href="https://step-up.ac.uk/events/" target="_blank" rel="noopener noreferrer">STEP-UP events page</a> once registration is open.</h5>
 
 <h2 id="general">General Information</h2>
 
